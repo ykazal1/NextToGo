@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BA26ADBC2D920FD9003AA8D6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA26ADBB2D920FD9003AA8D6 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BA1F29112D8B1702000AF22E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		BA1F29002D8B1701000AF22E /* NextToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1F29102D8B1702000AF22E /* NextToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1F291A2D8B1702000AF22E /* NextToGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextToGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA26ADBB2D920FD9003AA8D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		BA1F28F72D8B1701000AF22E = {
 			isa = PBXGroup;
 			children = (
+				BA26ADBB2D920FD9003AA8D6 /* README.md */,
 				BA1F29022D8B1701000AF22E /* NextToGo */,
 				BA1F29132D8B1702000AF22E /* NextToGoTests */,
 				BA1F291D2D8B1702000AF22E /* NextToGoUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA26ADBC2D920FD9003AA8D6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +419,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yacob.NextToGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,6 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yacob.NextToGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
