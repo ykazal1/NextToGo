@@ -42,7 +42,7 @@ NextToGo is a SwiftUI-based iOS application for showcasing real-time upcoming ra
 ##Views
 | Views Heirachy | Views |
 |------------------|--------------|
-| ![Screenshot1](./Screenshots/viewsHeirachy.png) | ![Screenshot2](./Screenshots/Views.png) |
+| ![Screenshot1](./Screenshots/viewsHeirachy.png) | ![Screenshot2](./Screenshots/views.png) |
 
 ---
 
@@ -95,7 +95,11 @@ Accessibility is thoughtfully integrated to provide an inclusive and intuitive e
     •    Iconography uses .accessibilityHidden(true) where applicable to avoid cluttering announcements.
     •    Buttons and toggles are described with action labels (e.g., “Select Horse Racing toggle, selected”).
 
-![Accessibility Video](./Screenshots/accessibilityVideo.MP4)
+
+https://github.com/user-attachments/assets/5f11e928-7594-458a-a39b-0c88296a76d4
+
+
+
 ---
 
 3. Run on a simulator or device.
