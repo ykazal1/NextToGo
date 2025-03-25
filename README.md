@@ -28,14 +28,10 @@ NextToGo is a SwiftUI-based iOS application for showcasing real-time upcoming ra
 ---
 
 ## 🧱 Architecture
-.
-├── Models                  # All Decodable response models
-├── ViewModels             # ObservableObject classes managing UI logic
-├── Views                  # SwiftUI views and components
-├── API                    # APIClient + Networking layer
-├── Resources              # Asset catalogs and icons
-├── Utilities              # Logger, Transformers, Extensions
-└── Tests                  # Swift Testing suites
+| Architecture |
+|------------------|
+| ![Screenshot1](./Screenshots/architecture.png)|
+
 - ✅ Follows **MVVM**
 - ✅ Uses `@MainActor` view models
 - ✅ Separates transformation and networking
@@ -44,17 +40,9 @@ NextToGo is a SwiftUI-based iOS application for showcasing real-time upcoming ra
 ---
 
 ##Views
-
-├── NextToGoRacingView
-|   └── Toolbar
-|      └── CheckBoxView
-└── RacingCardView
-    ├── RacingCardHeaderView
-    └── EntrantCellView
-       └── BetCellButton
-
-
-![Views](./Screenshots/views.PNG)
+| Views Heirachy | Views |
+|------------------|--------------|
+| ![Screenshot1](./Screenshots/viewsHeirachy.png) | ![Screenshot2](./Screenshots/Views.png) |
 
 ---
 
